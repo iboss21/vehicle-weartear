@@ -4,7 +4,7 @@ Enhance the realism and immersion of your FiveM roleplay server with this compre
 
 ## Features
 
-https://gist.github.com/iboss21/73acafe25a87764a3e3b0f21c64e0b00?permalink_comment_id=5094492#gistcomment-5094492
+![unnamed](https://gist.github.com/assets/48193931/2e5c4ef7-4289-447a-bc6d-ec0287fcbecb)
 
 * **Visual Degradation:**  Vehicles gradually accumulate scratches, dents, dirt, and even rust, reflecting their usage and age.
 * **Performance Impact:**  As wear and tear increases, vehicle performance degrades, affecting top speed, acceleration, and handling.
