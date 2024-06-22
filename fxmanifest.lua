@@ -3,17 +3,17 @@ game 'gta5'
 lua54 'yes'
 
 author 'iBoss21 | https://discord.gg/theluxempire'
-description 'Dynamic Vehicle Wear and Tear System for Realistic Roleplay'
-version '1.0.0'
+description 'Dynamic Vehicle Wear and Tear System for Realistic Roleplay (Compatible with QBCore and ESX)'
+version '1.2.0'
 
 shared_scripts {
-    'config.lua'
+    'config.lua'  -- Configuration file
 }
 
 client_scripts {
-    'client/client.lua',
+    'client/main.lua' 
 }
 
 server_scripts {
-    'server/server.lua'
+    'server/main.lua'
 }
