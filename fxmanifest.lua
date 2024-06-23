@@ -12,9 +12,9 @@ shared_scripts {
 }
 
 client_scripts {
-    'client.lua'         -- Client-side script (main.lua is now renamed to client.lua)
+    'client/client.lua'         -- Client-side script (main.lua is now renamed to client.lua)
 }
 
 server_scripts {
-    'server.lua'        -- Server-side script (main.lua is now renamed to server.lua)
+    'server/server.lua'        -- Server-side script (main.lua is now renamed to server.lua)
 }
