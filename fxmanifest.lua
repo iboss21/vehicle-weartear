@@ -1,20 +1,25 @@
 fx_version 'cerulean'
 game 'gta5'
-lua54 'yes'
 
-author 'iBoss21 | https://discord.gg/theluxempire'
-description 'Dynamic Vehicle Wear and Tear System for Realistic Roleplay (Compatible with QBCore and ESX)'
-version '1.2.0'
+author 'iBoss21'
+description 'Advanced Vehicle Wear System'
+version '1.0.0'
 
-shared_scripts { 
-    '@qb-core/shared/locale.lua', -- For qb-core language support
-    'config.lua'       -- Configuration file
+shared_scripts {
+    '@ox_lib/init.lua',
+    'config.lua'
 }
 
 client_scripts {
-    'client/client.lua'         -- Client-side script (main.lua is now renamed to client.lua)
+    'client.lua'
 }
 
 server_scripts {
-    'server/server.lua'        -- Server-side script (main.lua is now renamed to server.lua)
+    '@oxmysql/lib/MySQL.lua',
+    'server.lua'
+}
+
+dependencies {
+    'ox_lib',
+    'oxmysql'
 }
