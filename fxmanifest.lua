@@ -23,3 +23,5 @@ dependencies {
     'ox_lib',
     'oxmysql'
 }
+
+lua54 'yes'
